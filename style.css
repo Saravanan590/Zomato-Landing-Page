@@ -137,6 +137,29 @@ body{
     height: 150px;
     border-radius: 5px;
 }
+.mail__section{
+    width: 100%;
+}
+.input__section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+input{
+    width:150%;
+    height: 80%;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid salmon;
+    background-color: rgb(233, 215, 220);
+    font-weight: bold;
+    color: slategray;
+}
+.input__btn{
+    width:140px;
+    padding:10px 8px;
+}
 @media(min-width: 768px)
 {
     .nav__bar{
@@ -192,13 +215,21 @@ body{
     .res__container{
         display: flex;
         align-items: center;
-        
+        margin-bottom: 8%;
     }
     .res__text{
         width: 100%;
     }
     .res__img__section{
         width:120%;
+    }
+    .mail__section{
+        margin: 0 auto;
+        max-width: 400px;
+    }
+    .mail__text{
+        font-size: x-large;
+        margin-bottom: 5px;
     }
 }
 @media(min-width: 1030px)
@@ -242,6 +273,14 @@ body{
     }
     .res__text{
         font-size:xx-large;
+    }
+    .mail__text{
+        font-size: 25px;
+    }
+    .input__btn{
+        width: 70%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 @media(min-width:1400px)
