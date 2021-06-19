@@ -113,7 +113,7 @@ body{
 .res__img__row1,.res__img__row2{
     width:100%;
     display: flex;
-    gap:8px;
+    
     
 }
 .res__img__row1{
@@ -126,6 +126,9 @@ body{
 }
 .res__img1,.res__img4{
     width: 120%;
+}
+.res__img1,.res__img3{
+    margin-right: 5px;
 }
 .img1,.img4{
     width: 100%;
@@ -144,7 +147,7 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    gap:5px;
+    
 }
 input{
     width:150%;
@@ -155,6 +158,7 @@ input{
     background-color: rgb(233, 215, 220);
     font-weight: bold;
     color: slategray;
+    margin-right: 5px;
 }
 .input__btn{
     width:140px;
@@ -185,7 +189,8 @@ input{
 .quote__text{
    text-align: center;
    z-index: 3;
-   color:#ffff
+   color:#ffff;
+   font-size: 18px;
 }
 footer{
     display:flex;
