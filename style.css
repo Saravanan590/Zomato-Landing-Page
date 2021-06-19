@@ -5,7 +5,7 @@
 body{
     font-family: "Merriweather", serif;
     background-color: #ebf2ff;
-    color:rgb(11, 13, 20)
+    color:rgb(61, 66, 80)
 }
 .container{
     padding: 0 20px;
@@ -159,7 +159,35 @@ input{
 .input__btn{
     width:140px;
     padding:10px 8px;
+    
 }
+.quote__section{
+    background: url("https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80")
+    center center/cover no-repeat;
+   width: 100%;
+   height: 180px;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   margin: 30px 0;
+   border-radius: 20px;
+}
+.quote__bg{
+    width: 100%;
+    height: 180px;
+    background-color: #0a4065;
+    opacity: 55%;
+    position: absolute;
+    border-radius: 20px;
+}
+.quote__text{
+   text-align: center;
+   z-index: 3;
+   color:#ffff
+}
+
 @media(min-width: 768px)
 {
     .nav__bar{
@@ -193,9 +221,9 @@ input{
         margin-top: -30px;
         margin-bottom: 30px;
     }
-.exp__text{
+    .exp__text{
     font-size: 40px;
-}
+    }
     .exp__bg{
         position: absolute;
         top: 0;
@@ -203,13 +231,13 @@ input{
         width: 100%;
         height: 100%;
         background-image: linear-gradient(
-    to right,
-    #ff512f 0%,
-    #dd2476 51%,
-    #ff512f 100%
-  );
-  z-index: -3;
-  transform: skewY(-5deg);
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+        );
+        z-index: -3;
+        transform: skewY(-5deg);
 
     }
     .res__container{
@@ -231,6 +259,16 @@ input{
         font-size: x-large;
         margin-bottom: 5px;
     }
+   .quote__section{
+       height: 300px;
+       margin: 8% 0;
+   }
+   .quote__bg{
+       height: 300px;
+   }
+   .quote__text{
+       font-size: 35px;
+   }
 }
 @media(min-width: 1030px)
 {  
@@ -251,7 +289,7 @@ input{
     .container{
          padding:0 10%;
          margin: 0 auto;
-     }
+    }
      .hero__text{
          font-size: 45px;
          font-weight: bold;
@@ -275,12 +313,15 @@ input{
         font-size:xx-large;
     }
     .mail__text{
-        font-size: 25px;
+        font-size: 30px;
     }
     .input__btn{
         width: 70%;
         padding-left: 0px;
         padding-right: 0px;
+    }
+    .quote__text{
+        margin: 0 3%;
     }
 }
 @media(min-width:1400px)
