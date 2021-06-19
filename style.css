@@ -190,7 +190,7 @@ input{
    text-align: center;
    z-index: 3;
    color:#ffff;
-   font-size: 18px;
+   margin: 0 1rem;
 }
 footer{
     display:flex;
